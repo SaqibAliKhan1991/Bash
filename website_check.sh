@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sites=("google.com" "github.com" "example.com")
+sites=("google.com" "github.com" "example.com" "facebook.com")
 
 for site in "${sites[@]}"; do
     ping -c 1 $site &> /dev/null
